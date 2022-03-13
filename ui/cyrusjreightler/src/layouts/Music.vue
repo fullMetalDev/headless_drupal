@@ -12,7 +12,9 @@
 </template>
 <script>
     import Dropdown from '~/components/dropdown.vue';
+    
     export default {
+      name:"MusicLayout",
       components : {
         Dropdown
       }
@@ -23,16 +25,7 @@ query {
   metadata {
     siteName
   }
-  allDrupalNodePage{
-    edges{
-      node{
-        title,
-        path,
-        
-       
-      }
-    }
-  }
+  
   
 }
 </static-query>
