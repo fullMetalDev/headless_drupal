@@ -14,6 +14,7 @@
             <b-nav-item-dropdown
             id="music-dropdown"
             text="Music"
+            class="cyrus-j-dropdown-nav"
             toggle-class="nav-link-custom"
             right
             >

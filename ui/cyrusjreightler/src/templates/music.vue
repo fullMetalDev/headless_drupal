@@ -1,5 +1,7 @@
 <template>
   <MusicLayout>
+    
+
     <h1 v-html="$page.pages.title" />
     <div v-html="$page.pages.body.value" />
     

@@ -1,9 +1,10 @@
 <template>
   <div class="layout">
     <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
+      <g-link to="/"><g-image alt="Cyrus J Reightler" src="../../static/cyrusj.png" width="135" /></g-link>
+      
+          
+
       <dropdown/>
       
     </header>

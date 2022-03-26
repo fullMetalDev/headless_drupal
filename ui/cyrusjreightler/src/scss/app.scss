@@ -1,5 +1,25 @@
 $body-bg: #000;
 $body-color: #fff;
+$nav-link-color: #9695f3;
+$nav-toggles: "a.nav-link-custom , a.nav-link-custom:hover,a.nav-link-custom:visited";
+$nav-links: ".nav-link-custom a , .nav-link-custom a:hover,.nav-link-customa:visited";
+$nav-img: "../../static/img/pexels-scott-webb-2117937.jpg";
+$primary:#7364ab;
+$secondary: #83a3ec; 
+#{$nav-toggles} {
+    color:$nav-link-color;
+}
+.dropdown-menu {
+    background-color: $secondary!important;
+    
+}
+.dropdown-menu a {
+    color:#fff;
+}
+#{$nav-links}{
+    color:#fff;
+}
+
 
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
